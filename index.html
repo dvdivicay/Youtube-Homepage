@@ -3,56 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <title>YouTube - Clone</title>
-    <link rel="icon" type="image/jpg" href="/resources/ytfavicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpg" href="/resources/icons/ytfavicon.png">
+    <link rel="stylesheet" href="/styles/general.css">
+    <link rel="stylesheet" href="/styles/header.css">
 </head>
 <body>
     <!-- Header -->
-    <header>
-        <h1>YouTube</h1>
-        <input type="text" placeholder="Search">
-        <button>Search</button>
-        <button>Upload</button>
-        <button>Notifications</button>
-        <button>Profile</button>
+    <header class="header">
+        <div class = "left">
+            <div class="menu-container">
+                <img class = "menu-icon" src="/resources/icons/menu.svg" alt="Menu Icon">
+            </div>
+            <div class="logo-container">
+                <div class="ytlogo-container">
+                    <img class="logo" src="/resources/icons/ytlogo.svg" alt="YouTube Logo">
+                </div> 
+                <span class="region-label">PH</span>
+            </div>
+        </div>
+
+        <!-- Center Section -->
+        <div class="center">
+            <div class="center-scope">
+                <div class="search-container">
+                    <div class="search-input-wrapper">
+                    <input type="text" class="search-input" placeholder="Search">
+                    </div>
+                    <div class="search-icon-wrapper">
+                        <img class="search-icon" src="/resources/icons/search.svg" alt="Search Icon">
+                    </div>
+                </div>
+                <div class="mic-wrapper">
+                    <img class="mic-icon" src="/resources/icons/mic.svg" alt="Microphone Icon">
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="right-scope">
+                <div class="right-icons">
+                    <div class="create-icon-wrapper">
+                        <img class="create-icon" src="/resources/icons/plus.svg" alt="Create Icon">
+                        <span class="create-label">Create</span>
+                    </div>
+                    <div class="notif-icon-wrapper">
+                        <img class="notif-icon" src="/resources/icons/notifications.svg" alt="Notifications Icon">
+                    </div>
+                    <div class="profile-icon-wrapper">
+                        <img class="profile-icon" src="/resources/icons/user.jpg" alt="Profile Icon">    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </header>
 
-    <!-- Navigation Sidebar -->
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li>Trending</li>
-            <li>Subscriptions</li>
-            <li>Library</li>
-            <li>History</li>
-        </ul>
-    </nav>
+ 
 
-    <!-- Main Content (Videos) -->
-    <main>
-        <h2>Recommended</h2>
+   
 
-        <!-- Video Item -->
-        <section>
-            <img src="https://via.placeholder.com/200x100" alt="Video Thumbnail">
-            <h3>Video Title 1</h3>
-            <p>Channel Name</p>
-            <p>1M views • 1 week ago</p>
-        </section>
-
-        <!-- Video Item -->
-        <section>
-            <img src="https://via.placeholder.com/200x100" alt="Video Thumbnail">
-            <h3>Video Title 2</h3>
-            <p>Channel Name</p>
-            <p>500K views • 3 days ago</p>
-        </section>
-
-
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <p>© 2025 YouTube Clone - HTML Only</p>
-    </footer>
 </body>
 </html>

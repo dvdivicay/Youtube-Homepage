@@ -1,0 +1,242 @@
+.header {
+  width: 100%;
+  height: 56px;
+  background-color: #0f0f0f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 16px;
+  padding-left: 16px;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  height: 100%; 
+  width: 169px;
+}
+.menu-container {
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+}
+
+.menu-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.logo-container{
+  height: 100%;
+  width: 129px;
+  display: flex;
+  align-items: center;
+}
+
+.ytlogo-container{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 123px;
+  padding: 18px 14px 18px 16px;
+  cursor: pointer;
+}
+
+.ytlogo {
+  height: 26px;
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+.region-label {
+  width: 13.45px;
+  height: 44px;
+  font-size: 10px;
+  color: #aaa;
+  margin: 12px 0px 0px -10px;
+}
+
+.center {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  width: 732px;
+  border: 0;
+  flex-direction: row;
+  flex-shrink: 1;
+  font-size: 10px;
+  margin: 0px 0px 0px 0px;
+  background-clip: border-box;
+  background-origin: padding-box;
+}
+
+.center-scope{
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 640px;
+  height: 40px;
+  margin: 0px 0px 0px 40px;
+  padding: 0px 4px;
+}
+
+.search-input-wrapper{
+  display: flex;
+  align-items: center;
+  width: 536px;
+  height: 40px;
+  margin: 0px 0px 0px 32px;
+  padding: 0px 4px 0px 16px;
+  border: 1px solid #333;
+  border-right: none;
+  background-color: #121212;
+  color: white;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.search-input {
+  flex: 1;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  font-family: Roboto, Arial, sans-serif;
+  outline: none;
+  padding: 1px 0px;
+}
+
+.search-icon-wrapper {
+  height: 40px;
+  width: 64px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+  border: 1px solid #333;
+  cursor: pointer;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.mic-wrapper {
+  margin-left: auto;
+  background-color: #333;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+
+  align-items: center;
+}
+
+.mic-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.right {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  width: 225px;
+  border: 0;
+  flex-direction: row;
+  flex-shrink: 1;
+  font-size: 10px;
+  margin: 0px 0px 0px 0px;
+}
+
+.right-scope{
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  justify-content: flex-end;
+  height: 40px;
+  width: 100%;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 10px;
+}
+
+.right-icons{
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 213.18px;
+  justify-content: space-between;
+}
+
+.create-icon-wrapper {
+  width: 97.18px;
+  height: 36px;
+  background-color: #222;
+  border: 1px solid #333;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.create-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.create-label {
+  font-size: 13px;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 4px;
+}
+
+.notif-icon-wrapper {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.notif-icon{
+  width: 24px;
+  height: 24px;
+}
+
+.profile-icon-wrapper {
+  width: 60px;
+  height: 34px;
+  padding: 1px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.profile-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
